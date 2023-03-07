@@ -1,0 +1,1096 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto.woff') format('woff');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.loc-big {
+    display: none;
+}
+.header .container .company .langs .dots {
+    display: none;
+}
+.header .container .company .langs .arr-lang {
+    display: none;
+}
+.arr-left {
+    display: none;
+}
+.header {
+    max-width: 1920px;
+    min-height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E9E9EA;
+}
+.header .container {
+    width: 100%;
+    max-width: 1411px;
+    min-height: 111px;
+    display: flex;
+    flex-direction: column;
+}
+.header .container .company {
+    width: 100%;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .company .logo {
+    max-width: 225px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .company .logo .emblem {
+    max-width: 48px;
+}
+.header .container .company .logo .name {
+    max-width: 167px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.header .container .company .logo .name .sprav {
+    max-width: 135px;
+    align-self: flex-end;
+}
+.header .container .company .logo .name .big {
+    max-width: 167px;
+}
+.header .container .company .langs {
+    max-width: 87px;
+    min-height: 25px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header .container .company .langs .lang {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #8E8E91;
+    margin-right: 10px;
+}
+.header .container .company .langs .active {
+    color: #1F1F24;
+}
+.header .container .general {
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+}
+.header .container .general .burger {
+    max-width: 40px;
+    margin-left: 20px;
+}
+.header .container .general .info {
+    margin-left: 40px;
+    width: 100%;
+    max-width: 1380px;
+    min-height: 68px;
+    display: flex;
+    border: 2px solid #0AA9B4;
+    border-radius: 10px;
+}
+.header .container .general .info .city {
+    width: 100%;
+    max-width: 200px;
+    min-height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 2px solid #0AA9B4;
+}
+.header .container .general .info .city .name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1F24;
+}
+.header .container .general .info .city .arrow {
+    max-width: 10px;
+}
+.header .container .general .info .search {
+    width: 100%;
+    max-width: 1180px;
+    min-height: 68px;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container .general .info .search .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1F24;
+    margin-left: 25px;
+}
+.header .container .general .info .search .icon {
+    max-width: 21px;
+    margin-right: 25px;
+}
+.main {
+    max-width: 1920px;
+    min-height: 916px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.main .container {
+    width: 100%;
+    max-width: 1480px;
+    min-height: 654px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    margin-bottom: 222px;
+}
+.main .container .info {
+    width: 100%;
+    max-width: 1230px;
+    min-height: 654px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.main .container .rectangle {
+    width: 100%;
+    max-width: 200px;
+    min-height: 654px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #E9E9EA;
+}
+.main .container .info .name {
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.main .container .info .name .store {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #00315C;
+}
+.main .container .info .name .store span {
+    font-weight: bold;
+}
+.main .container .info .name .star {
+    width: 100%;
+    max-width: 25px;
+}
+.main .container .info .description {
+    margin-top: 20px;
+    max-width: 1230px;
+    min-height: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4C4C50;
+    margin: 20px 0 0 0;
+}
+.main .container .info .information {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1230px;
+    min-height: 411px;
+    border: 1px solid #E9E9EA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.main .container .info .information .company {
+    width: 100%;
+    max-width: 1170px;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    flex-wrap: wrap;
+}
+.main .container .info .information .company .comp-name {
+    width: 100%;
+    max-width: 290px;
+    padding: 0;
+    display: flex;
+}
+.main .container .info .information .company .comp-name .frame {
+    width: 100%;
+    max-width: 170px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E9E9EA;
+    border-radius: 10px;
+}
+.main .container .info .information .company .comp-name .frame .photo {
+    width: 100%;
+    max-width: 60px;
+}
+.main .container .info .information .company .comp-name .year {
+    width: 100%;
+    max-width: 115px;
+    min-height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.main .container .info .information .company .comp-name .year .store-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4C4C50;
+    margin: 0;
+}
+.main .container .info .information .company .comp-name .year .foundation {
+    width: 100%;
+    max-width: 115px;
+    min-height: 24px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.main .container .info .information .company .comp-name .year .foundation .pen {
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+}
+.main .container .info .information .company .comp-name .year .foundation p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 160%;
+    color: #1F1F24;
+}
+.main .container .info .information .company .location {
+    width: 100%;
+    max-width: 287px;
+    min-height: 120px;
+    display: flex;
+    align-items: flex-start;
+}
+.main .container .info .information .company .location .affiliate {
+    width: 100%;
+    max-width: 87px;
+    display: flex;
+}
+.main .container .info .information .company .location .affiliate p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #00315C;
+    margin: 0;
+}
+.main .container .info .information .company .location .affiliate img {
+    width: 100%;
+    max-width: 10px;
+    margin-left: 8px;
+}
+.main .container .info .information .company .location .map {
+    width: 100%;
+    max-width: 170px;
+    margin-left: 30px;
+}
+.main .container .info .information .geo {
+    width: 100%;
+    max-width: 1170px;
+    min-height: 26px;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+.main .container .info .information .geo .loc {
+    width: 100%;
+    max-width: 15px;
+}
+.main .container .info .information .geo p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1F1F24;
+    font-weight: bold;
+}
+.main .container .info .information .pin {
+    width: 100%;
+    max-width: 1170px;
+    min-height: 26px;
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: 30px;
+}
+.main .container .info .information .pin img {
+    width: 100%;
+    max-width: 15px;
+}
+.main .container .info .information .pin p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4C4C50;
+}
+.main .container .info .information .contacts {
+    width: 100%;
+    max-width: 634px;
+    min-height: 51px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 85px;
+    left: 30px;
+}
+.main .container .info .information .contacts .phone {
+    width: 100%;
+    max-width: 166px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.main .container .info .information .contacts .phone .phone-icon {
+    width: 100%;
+    max-width: 15px;
+    margin-top: 6px;
+}
+.main .container .info .information .contacts .phone .number {
+    margin: 0 0 0 10px;
+    width: 100%;
+    max-width: 141px;
+    min-height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+.main .container .info .information .contacts .phone .number .num {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1F1F24;
+    font-weight: bold;
+}
+.main .container .info .information .contacts .phone .number .show {
+    margin: 1px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #0AA9B4;
+}
+.main .container .info .information .contacts .work-time {
+    width: 100%;
+    max-width: 212px;
+    min-height: 52px;
+    display: flex;
+    align-items: flex-start;
+}
+.main .container .info .information .contacts .work-time .clock {
+    width: 100%;
+    max-width: 15px;
+    margin-top: 6px;
+}
+.main .container .info .information .contacts .work-time .timing {
+    width: 100%;
+    max-width: 68px;
+    min-height: 52px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main .container .info .information .contacts .work-time .timing p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #8E8E91;
+}
+.main .container .info .information .contacts .work-time .spec {
+    width: 100%;
+    max-width: 104px;
+    min-height: 52px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main .container .info .information .contacts .work-time .spec p {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4C4C50;
+}
+.main .container .info .information .contacts .sites {
+    width: 100%;
+    max-width: 143px;
+    min-height: 51px;
+    display: flex;
+    flex-direction: column;
+}
+.main .container .info .information .contacts .sites .site {
+    width: 100%;
+    max-width: 96px;
+    min-height: 26px;
+    display: flex;
+}
+.main .container .info .information .contacts .sites .site .web {
+    width: 100%;
+    max-width: 15px;
+}
+.main .container .info .information .contacts .sites .site p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: lowercase;
+    color: #0AA9B4;
+}
+.main .container .info .information .contacts .sites .mail {
+    margin-top: 1px;
+    width: 100%;
+    max-width: 143px;
+    min-height: 25px;
+    display: flex;
+}
+.main .container .info .information .contacts .sites .mail .email {
+    width: 100%;
+    max-width: 15px;
+}
+.main .container .info .information .contacts .sites .mail p {
+    margin: 0 0 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: lowercase;
+    color: #0AA9B4;
+}
+.main .container .info .information .desc {
+    margin: 0;
+    width: 100%;
+    max-width: 1170px;
+    min-height: 52px;
+    position: relative;
+    top: 95px;
+    left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F1F24;
+    word-break: break-word;
+}
+.main .container .info .sections {
+    width: 100%;
+    max-width: 1230px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    border-bottom: 1px solid #BCBCBE;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+.main .container .info .sections p {
+    width: 100%;
+    max-width: 307px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 110%;
+    color: #0AA9B4;
+}
+.main .container .info .sections .active {
+    font-family: 'Roboto';
+    font-size: 26px;
+    line-height: 110%;
+    color: #00315C;
+    border-bottom: 2px solid #00315C;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 1367px) {
+    .header {
+        max-width: 1366px;
+        min-height: 163px;
+    }
+    .header .container {
+        max-width: 1179px;
+        min-height: 138px;
+    }
+    .header .container .company {
+        min-height: 58px;
+    }
+    .header .container .company .logo {
+        max-width: 225px;
+    }
+    .header .container .general .info {
+        max-width: 1100px;
+    }
+    .header .container .general .info .search {
+        max-width: 900px;
+    }
+    .header .container .general .info .search .icon {
+        max-width: 20px;
+    }
+    .main {
+        max-width: 1366px;
+    }
+    .main .container {
+        max-width: 1200px;
+        min-height: 675px;
+        margin-bottom: 201px;
+    }
+    .main .container .info {
+        max-width: 950px;
+        min-height: 579px;
+    }
+    .main .container .rectangle {
+        min-height: 675px;
+    }
+    .main .container .info .name .star {
+        display: none;
+    }
+    .main .container .info .description {
+        max-width: 950px;
+        min-height: 66px;
+    }
+    .main .container .info .information {
+        max-width: 950px;
+    }
+    .main .container .info .information .company {
+        max-width: 890px;
+        min-height: 120px;
+    }
+    .main .container .info .information .company .comp-name {
+        max-width: 305px;
+    }
+    .main .container .info .information .company .comp-name .year {
+        max-width: 105px;
+        min-height: 64px;
+    }
+    .main .container .info .information .company .comp-name .year .foundation {
+        max-width: 105px;
+    }
+    .main .container .info .information .geo {
+        max-width: 890px;
+    }
+    .main .container .info .information .pin {
+        max-width: 890px;
+    }
+    .main .container .info .information .desc {
+        max-width: 890px;
+    }
+    .main .container .info .sections {
+        max-width: 950px;
+        height: 35px;
+        margin-top: 103px;
+    }
+    .main .container .info .sections p {
+        max-width: 237px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 1024px;
+        min-height: 163px;
+    }
+    .header .container {
+        max-width: 923px;
+        min-height: 138px;
+    }
+    .header .container .company {
+        min-height: 58px;
+    }
+    .header .container .general .info {
+        max-width: 844px;
+    }
+    .header .container .general .info .search {
+        max-width: 644px;
+        min-height: 68px;
+    }
+    .main {
+        max-width: 1024px;
+    }
+    .main .container {
+        max-width: 926px;
+        min-height: 672px;
+        margin-bottom: 209px;
+    }
+    .main .container .info {
+        max-width: 694px;
+        min-height: 672px;
+    }
+    .main .container .rectangle {
+        min-height: 672px;
+        margin-left: 32px;
+    }
+    .main .container .info .description {
+        max-width: 694px;
+        min-height: 66px;
+    }
+    .main .container .info .information {
+        max-width: 694px;
+        min-height: 402px;
+    }
+    .main .container .info .information .company {
+        max-width: 639px;
+        min-height: 105px;
+        top: 20px;
+        left: 20px;
+    }
+    .main .container .info .information .company .comp-name {
+        max-width: 275px;
+    }
+    .main .container .info .information .company .comp-name .frame {
+        max-width: 150px;
+        min-height: 105px;
+    }
+    .main .container .info .information .company .comp-name .year {
+        max-width: 115px;
+        min-height: 65px;
+        margin-left: 20px;
+    }
+    .main .container .info .information .company .comp-name .year .foundation {
+        max-width: 115px;
+    }
+    .main .container .info .information .company .location {
+        max-width: 257px;
+        min-height: 105px;
+        display: flex;
+        align-items: center;
+    }
+    .main .container .info .information .company .location .map {
+        max-width: 150px;
+        margin-left: 20px;
+    }
+    .main .container .info .information .geo {
+        max-width: 654px;
+        min-height: 26px;
+        left: 20px;
+    }
+    .main .container .info .information .pin {
+        max-width: 654px;
+        min-height: 26px;
+        left: 20px;
+    }
+    .main .container .info .information .contacts {
+        max-width: 579px;
+        left: 20px;
+    }
+    .main .container .info .information .contacts .work-time {
+        max-width: 212px;
+    }
+    .main .container .info .information .contacts .sites .site {
+        max-width: 117px;
+    }
+    .main .container .info .information .desc {
+        margin: 0;
+        max-width: 654px;
+        min-height: 78px;
+        left: 20px;
+    }
+    .main .container .info .sections {
+        max-width: 694px;
+    }
+    .main .container .info .sections .infoSec {
+        display: none;
+    }
+    .main .container .info .sections p {
+        max-width: 240px;
+    }
+    .arr-left {
+        display: inline;
+        align-self: center;
+        position: relative;
+        left: -30px;
+    }
+    .main .container .info .sections .gallery {
+        color: #E9E9EA;
+    }
+}
+@media screen and (max-width: 360px) {
+    .header {
+        max-width: 360px;
+        min-height: 106px;
+    }
+    .header .container {
+        max-width: 315px;
+        min-height: 88px;
+    }
+    .header .container .company {
+        min-height: 34px;
+    }
+    .header .container .company .logo {
+        max-width: 134px;
+    }
+    .header .container .company .logo .emblem {
+        max-width: 29px;
+    }
+    .header .container .company .logo .name {
+        max-width: 99px;
+        margin-left: 6px;
+    }
+    .header .container .company .logo .name .sprav {
+        max-width: 80px;
+    }
+    .header .container .company .logo .name .big {
+        max-width: 99px;
+    }
+    .header .container .company .langs {
+        max-width: 45px;
+        min-height: 17px;
+    }
+    .header .container .company .langs .lang {
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+    .header .container .company .langs .dots {
+        display: inline;
+        width: 100%;
+        max-width: 19px;
+        margin-left: 15px;
+    }
+    .header .container .company .langs .arr-lang {
+        display: inline;
+        width: 100%;
+        max-width: 7px;
+    }
+    .header .container .company .langs .uz, .header .container .company .langs .en {
+        display: none;
+    }
+    .header .container .general {
+        min-height: 39px;
+    }
+    .header .container .general .burger {
+        max-width: 25px;
+    }
+    .header .container .general .info {
+        margin-left: 17px;
+        max-width: 271px;
+        min-height: 39px;
+        border-radius: 5px;
+    }
+    .header .container .general .info .city {
+        max-width: 87px;
+        min-height: 39px;
+    }
+    .header .container .general .info .city .name {
+        font-size: 12px;
+    }
+    .header .container .general .info .city .arrow {
+        max-width: 7px;
+    }
+    .header .container .general .info .search {
+        max-width: 184px;
+        min-height: 39px;
+    }
+    .header .container .general .info .search .text {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .header .container .general .info .search .icon {
+        display: none;
+    }
+    .main {
+        max-width: 360px;
+        min-height: 1288px;
+    }
+    .main .container {
+        max-width: 320px;
+        min-height: 1186px;
+        margin-bottom: 37px;
+    }
+    .main .container .info {
+        max-width: 320px;
+        min-height: 1186px;
+    }
+    .main .container .rectangle {
+        display: none;
+    }
+    .main .container .info .name {
+        min-height: 58px;
+    }
+    .main .container .info .name .store {
+        font-size: 26px;
+    }
+    .main .container .info .description {
+        margin-top: 10px;
+        max-width: 320px;
+        min-height: 114px;
+        font-size: 12px;
+    }
+    .main .container .info .information {
+        max-width: 320px;
+        min-height: 695px;
+        align-self: center;
+    }
+    .main .container .info .information .company {
+        max-width: 280px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        top: 15px;
+        left: 20px;
+    }
+    .main .container .info .information .company .comp-name {
+        max-width: 250px;
+    }
+    .main .container .info .information .company .comp-name .frame {
+        max-width: 100px;
+        min-height: 70px;
+        border-radius: 5px;
+    }
+    .main .container .info .information .company .comp-name .frame .photo {
+        max-width: 36px;
+    }
+    .main .container .info .information .company .comp-name .year {
+        max-width: 120px;
+        height: 50px;
+        margin-left: 15px;
+    }
+    .main .container .info .information .company .comp-name .year .store-name {
+        font-size: 13px;
+    }
+    .main .container .info .information .company .comp-name .year .foundation {
+        max-width: 125px;
+        min-height: 21px;
+        margin-top: 8px;
+    }
+    .main .container .info .information .company .comp-name .year .foundation p {
+        margin: 0 0 0 15px;
+        font-size: 13px;
+    }
+    .main .container .info .information .company .location {
+        display: none;
+    }
+    .main .container .info .information .geo {
+        max-width: 280px;
+        min-height: 44px;
+        top: 0px;
+        left: 20px;
+        align-items: flex-start;
+    }
+    .main .container .info .information .geo p { 
+        font-size: 14px;
+    }
+    .main .container .info .information .pin {
+        max-width: 280px;
+        min-height: 42px;
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: 20px;
+        align-items: flex-start;
+    }
+    .main .container .info .information .pin p {
+        font-size: 14px;
+    }
+    .main .container .info .information .contacts {
+        max-width: 212px;
+        height: 160px;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 20px;
+        left: 20px;
+    }
+    .main .container .info .information .contacts .phone {
+        max-width: 166px;
+        height: 43px;
+    }
+    .main .container .info .information .contacts .phone .number {
+        max-width: 140px;
+        height: 43px;
+    }
+    .main .container .info .information .contacts .phone .number .num {
+        font-size: 14px;
+    }
+    .main .container .info .information .contacts .phone .number .show {
+        margin: 0 0 0 0;
+        font-size: 13px;
+    }
+    .main .container .info .information .contacts .work-time {
+        max-width: 212px;
+        min-height: 44px;
+    }
+    .main .container .info .information .contacts .work-time .timing {
+        min-height: 44px;
+    }
+    .main .container .info .information .contacts .work-time .timing p {
+        font-size: 14px;
+    }
+    .main .container .info .information .contacts .work-time .spec {
+        min-height: 44px;
+        margin-left: 21px;
+    }
+    .main .container .info .information .contacts .work-time .spec p {
+        font-size: 14px;
+    }
+    .main .container .info .information .contacts .sites {
+        width: 100%;
+        max-width: 143px;
+        min-height: 51px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main .container .info .information .contacts .sites .site {
+        width: 100%;
+        max-width: 96px;
+        min-height: 26px;
+        display: flex;
+    }
+    .main .container .info .information .contacts .sites .site .web {
+        width: 100%;
+        max-width: 15px;
+    }
+    .main .container .info .information .contacts .sites .site p {
+        margin: 0 0 0 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        text-transform: lowercase;
+        color: #0AA9B4;
+    }
+    .main .container .info .information .contacts .sites .mail {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 143px;
+        min-height: 25px;
+        display: flex;
+    }
+    .main .container .info .information .contacts .sites .mail .email {
+        width: 100%;
+        max-width: 15px;
+    }
+    .main .container .info .information .contacts .sites .mail p {
+        margin: 0 0 0 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        text-transform: lowercase;
+        color: #0AA9B4;
+    }
+    .main .container .info .information .loc-big {
+        display: block;
+        width: 100%;
+        max-width: 280px;
+        height: 143px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+    .main .container .info .information .loc-big .map-big {
+        width: 100%;
+        max-width: 280px;
+    }
+    .main .container .info .information .loc-big .affiliate-big {
+        width: 100%;
+        max-width: 75px;
+        height: 22px;
+        display: flex;
+        margin-top: 15px;
+    }
+    .main .container .info .information .loc-big .affiliate-big p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 160%;
+        color: #00315C;
+        margin: 0;
+    }
+    .main .container .info .information .loc-big .affiliate-big img {
+        width: 100%;
+        max-width: 7px;
+        margin-left: 8px;
+    }
+    .main .container .info .information .desc {
+        max-width: 280px;
+        height: 133px;
+        top: 50px;
+        left: 20px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .main .container .info .sections {
+        max-width: 320px;
+        min-height: 216px;
+        flex-direction: column;
+        margin-top: 43px;
+        border-bottom: none;
+    }
+    .arr-left {
+        display: none;
+    }
+    .main .container .info .sections p {
+        max-width: 320px;
+        height: 20px;
+        font-size: 18px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #BCBCBE;
+    }
+    .main .container .info .sections .infoSec {
+        display: block;
+        color: #E9E9EA;
+    }
+}
